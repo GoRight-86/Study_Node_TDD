@@ -18,8 +18,7 @@
   },
   "scripts": {
     "start": "node ./node_modules/babel-cli/bin/babel-node.js index.js",
-    "test": "mocha --require babel-register --recursive ./**/*.spec.js",
-    "test_": "node ./node_modules/mocha/bin/mocha --compilers spec --require js:babel-register --recursive ./**/*.spec.js"
+    "test": "mocha --require babel-register --recursive ./**/*.spec.js"
   },
   "keywords": [],
   "author": "",
